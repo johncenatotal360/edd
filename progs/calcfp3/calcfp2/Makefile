@@ -9,11 +9,11 @@ BIN=calc.out
 
 all: $(BIN)
 
-%.o: %.c:
-	$(CC) $(CFLAGS) $^ -c -o $@
+%.o: %.c
+	$(CC) $(CFLAGS) $^ -c 
 
 $(BIN): $(OBJ)
-	$(CC) $(CFLAGS) $^  $(LDFLAGS) -o $@
+	$(CC) $^ -o $@ $(LDFLAGS)
 
 clean:
 	rm -rf $(BIN) $(OBJ)

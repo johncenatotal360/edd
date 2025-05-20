@@ -1,0 +1,5 @@
+Create an LKM device with support for write and read from user space
+
+Create a user space application to send 100 bytes of data from the file "etc/passwd" into this device.
+
+Print the contents of this data in dmesg when you receive the data ig.

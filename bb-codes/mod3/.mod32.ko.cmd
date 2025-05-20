@@ -1,1 +1,1 @@
-cmd_/home/desd/edd/bb-codes/mod3/mod32.ko := arm-linux-gnueabihf-ld -r  -EL -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/desd/edd/bb-codes/mod3/mod32.ko /home/desd/edd/bb-codes/mod3/mod32.o /home/desd/edd/bb-codes/mod3/mod32.mod.o;  true
+cmd_/home/desd/edd/edd/bb-codes/mod3/mod32.ko := arm-linux-gnueabihf-ld -r  -EL -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/desd/edd/edd/bb-codes/mod3/mod32.ko /home/desd/edd/edd/bb-codes/mod3/mod32.o /home/desd/edd/edd/bb-codes/mod3/mod32.mod.o;  true

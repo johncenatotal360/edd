@@ -36,6 +36,7 @@ __used __section("__versions") = {
 	{ 0xbf451cca, "__class_create" },
 	{ 0xe3ec2f2b, "alloc_chrdev_region" },
 	{ 0xc5850110, "printk" },
+	{ 0x5f754e5a, "memset" },
 	{ 0x8f678b07, "__stack_chk_guard" },
 };
 

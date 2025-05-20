@@ -1,8 +1,8 @@
-cmd_/home/desd/edd/bb-codes/mod3/mod31.o := arm-linux-gnueabihf-gcc -Wp,-MMD,/home/desd/edd/bb-codes/mod3/.mod31.o.d  -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabihf/9/include -I./arch/arm/include -I./arch/arm/include/generated  -I./include -I./arch/arm/include/uapi -I./arch/arm/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -fno-dwarf2-cfi-asm -fno-ipa-sra -msoft-float -mabi=aapcs-linux -mfpu=vfp -funwind-tables -marm -Wa,-mno-warn-deprecated -D__LINUX_ARM_ARCH__=7 -march=armv7-a -Uarm -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wimplicit-fallthrough -Wno-unused-but-set-variable -Wno-unused-const-variable -fomit-frame-pointer -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned  -DMODULE  -DKBUILD_BASENAME='"mod31"' -DKBUILD_MODNAME='"mod31"' -c -o /home/desd/edd/bb-codes/mod3/mod31.o /home/desd/edd/bb-codes/mod3/mod31.c
+cmd_/home/desd/edd/edd/bb-codes/mod3/mod31.o := arm-linux-gnueabihf-gcc -Wp,-MMD,/home/desd/edd/edd/bb-codes/mod3/.mod31.o.d  -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabihf/9/include -I./arch/arm/include -I./arch/arm/include/generated  -I./include -I./arch/arm/include/uapi -I./arch/arm/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -fno-dwarf2-cfi-asm -fno-ipa-sra -msoft-float -mabi=aapcs-linux -mfpu=vfp -funwind-tables -marm -Wa,-mno-warn-deprecated -D__LINUX_ARM_ARCH__=7 -march=armv7-a -Uarm -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wimplicit-fallthrough -Wno-unused-but-set-variable -Wno-unused-const-variable -fomit-frame-pointer -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned  -DMODULE  -DKBUILD_BASENAME='"mod31"' -DKBUILD_MODNAME='"mod31"' -c -o /home/desd/edd/edd/bb-codes/mod3/mod31.o /home/desd/edd/edd/bb-codes/mod3/mod31.c
 
-source_/home/desd/edd/bb-codes/mod3/mod31.o := /home/desd/edd/bb-codes/mod3/mod31.c
+source_/home/desd/edd/edd/bb-codes/mod3/mod31.o := /home/desd/edd/edd/bb-codes/mod3/mod31.c
 
-deps_/home/desd/edd/bb-codes/mod3/mod31.o := \
+deps_/home/desd/edd/edd/bb-codes/mod3/mod31.o := \
   include/linux/kconfig.h \
     $(wildcard include/config/cc/version/text.h) \
     $(wildcard include/config/cpu/big/endian.h) \
@@ -803,6 +803,6 @@ deps_/home/desd/edd/bb-codes/mod3/mod31.o := \
   include/uapi/linux/quota.h \
   include/linux/nfs_fs_i.h \
 
-/home/desd/edd/bb-codes/mod3/mod31.o: $(deps_/home/desd/edd/bb-codes/mod3/mod31.o)
+/home/desd/edd/edd/bb-codes/mod3/mod31.o: $(deps_/home/desd/edd/edd/bb-codes/mod3/mod31.o)
 
-$(deps_/home/desd/edd/bb-codes/mod3/mod31.o):
+$(deps_/home/desd/edd/edd/bb-codes/mod3/mod31.o):
