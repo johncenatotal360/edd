@@ -1,0 +1,1 @@
+cmd_/home/desd/edd/bb-codes/modAssignment/mod3p.ko := arm-linux-gnueabihf-ld -r  -EL -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/desd/edd/bb-codes/modAssignment/mod3p.ko /home/desd/edd/bb-codes/modAssignment/mod3p.o /home/desd/edd/bb-codes/modAssignment/mod3p.mod.o;  true
